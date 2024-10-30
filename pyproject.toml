@@ -22,6 +22,10 @@ classifiers = [
     'License :: OSI Approved :: MIT License',
 ]
 license = {file = "LICENSE"}
+dependencies = [
+    "standard-aifc; python_version >= '3.13'",
+    "standard-sunau; python_version >= '3.13'",
+]
 
 [project.optional-dependencies]
 test = [
